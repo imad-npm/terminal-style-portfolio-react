@@ -4,6 +4,7 @@ import Education from './components/Education';
 import Links from './components/Links';
 import Footer from './components/Footer';
 import Window from './components/ui/Window';
+import FadeIn from './components/ui/FadeIn';
 
 import "./App.css" ;
 export default function App() {
@@ -12,10 +13,18 @@ export default function App() {
      min-h-screen  flex items-center justify-center' >
       <Window>
         <Header />
-        <About />
-        <Education />
-        <Links />
-        <Footer />
+        <FadeIn>
+          <About />
+        </FadeIn>
+        <FadeIn>
+          <Education />
+        </FadeIn>
+        <FadeIn>
+          <Links />
+        </FadeIn>
+        <FadeIn>
+          <Footer />
+        </FadeIn>
       </Window>
     </div>
   );

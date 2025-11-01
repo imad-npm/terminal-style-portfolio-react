@@ -30,3 +30,14 @@
   --color-input: hsl(217, 33%, 13%);
   --color-ring: hsl(213, 27%, 84%);
 }
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
