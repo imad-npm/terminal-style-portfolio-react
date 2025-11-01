@@ -9,7 +9,7 @@ export default function Links() {
         <span className="text-green-400">[user@portfolio ~]$</span>
         <h2 className="text-2xl font-bold text-primary ml-2">ls -l links</h2>
       </div>
-      <div className="flex space-x-4 mt-4">
+      <div className="flex gap-4 flex-wrap mt-4">
         <a href="https://github.com/yourusername" target="_blank" className="flex items-center space-x-2 bg-secondary text-secondary-foreground hover:bg-accent hover:text-accent-foreground py-2 px-4 rounded-md">
           <FaGithub />
           <span>GitHub</span>

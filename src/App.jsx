@@ -9,7 +9,7 @@ import "./App.css" ;
 export default function App() {
   return (
     <div className='bg-background text-foreground
-     min-h-screen w-full flex items-center justify-center' >
+     min-h-screen  flex items-center justify-center' >
       <Window>
         <Header />
         <About />
