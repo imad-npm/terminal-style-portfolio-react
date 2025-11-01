@@ -32,7 +32,7 @@ const FadeIn = ({ children }) => {
   return (
     <div
       ref={ref}
-      className={`transition-opacity duration-1000 ease-in ${isIntersecting ? 'opacity-100' : 'opacity-0'}`}>
+      className={`fade-in-section ${isIntersecting ? 'is-visible' : ''}`}>
       {children}
     </div>
   );
