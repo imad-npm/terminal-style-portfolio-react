@@ -1,5 +1,5 @@
 // src/components/Links.jsx
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import CopyToClipboard from './ui/CopyToClipboard';
 
 export default function Links() {
@@ -18,7 +18,10 @@ export default function Links() {
           <FaLinkedin />
           <span>LinkedIn</span>
         </a>
-        <CopyToClipboard text="you@example.com" />
+        <CopyToClipboard text="you@example.com">
+          <FaEnvelope />
+          <span>you@example.com</span>
+        </CopyToClipboard>
       </div>
     </section>
   );
