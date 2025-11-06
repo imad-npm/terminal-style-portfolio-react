@@ -6,11 +6,7 @@ export default function About() {
         <h2 className="text-2xl font-bold text-primary ml-2">cat about.txt</h2>
       </div>
       <div className="space-y-4 text-muted-foreground mt-4">
-        <p>Hi! I’m John, a software developer with a Master degree in Computer Science, </p>
-        <p>I’ve worked on a variety of projects using C, Java, PHP, Python, and JavaScript.
-Built web apps with React and Laravel, experimented with backend APIs and automation scripts.
-Enjoy tackling problems at different levels, from low-level logic to high-level design.
-Always open to exploring new technologies and frameworks.</p>
+        <p>Computer science graduate with a Master’s in Information Systems and Data. Passionate about software engineering, data-driven systems, and designing intelligent, scalable applications. Combines solid academic grounding in system architecture, data management, and algorithmic thinking with hands-on experience in application development, data processing, and automation. Motivated by innovation, clean design, and building solutions that connect theory with real-world impact.</p>
       </div>
     </section>
   );

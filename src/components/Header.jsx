@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import Typewriter from './ui/Typewriter';
 
 export default function Header() {
@@ -8,11 +7,11 @@ export default function Header() {
         <div className="text-left">
           <span className="text-green-400">[user@portfolio ~]$</span>
           <h1 className="text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-            <Typewriter text="John Doe" speed={100} />
+            <Typewriter text="Benkaddour Imad Eddine" speed={100} />
           </h1>
         </div>
         <p className="text-muted-foreground mt-4">
-          <Typewriter text="Frontend Developer" speed={50} delay={1000} />
+          <Typewriter text="Fullstack Developer" speed={50} delay={2500} />
         </p>
       </div>
     </header>
