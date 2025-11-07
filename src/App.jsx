@@ -14,15 +14,11 @@ import "./App.css" ;
 
 export default function App() {
   return (
-    <div className='bg-background text-foreground
-     min-h-screen  flex items-center justify-center' >
+    <div className='bg-background text-foreground min-h-screen px-4 py-10'>
       <Window>
         <Header />
         <FadeIn>
           <Links />
-        </FadeIn>
-           <FadeIn>
-          <Contact />
         </FadeIn>
         <FadeIn>
           <About />
@@ -39,7 +35,9 @@ export default function App() {
         <FadeIn>
           <Languages />
         </FadeIn>
-     
+        <FadeIn>
+          <Contact />
+        </FadeIn>
         <FadeIn>
           <Footer />
         </FadeIn>
@@ -47,3 +45,4 @@ export default function App() {
     </div>
   );
 }
+

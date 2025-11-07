@@ -5,7 +5,7 @@ export default function Education() {
         <span className="text-green-400">[user@portfolio ~]$</span>
         <h2 className="text-2xl font-bold text-primary ml-2">cat education.txt</h2>
       </div>
-      <div className="text-muted-foreground mt-4 space-y-4">
+      <div className="text-muted-foreground mt-4 space-y-4 break-words">
         <div>
           <h3 className="text-xl font-bold text-primary">Master in Information Systems & Data (SID)</h3>
           <p className="italic">University of Science and Technology of Oran (USTO-MB)</p>

@@ -6,7 +6,7 @@ export default function Header() {
       <div>
         <div className="text-left">
           <span className="text-green-400">[user@portfolio ~]$</span>
-          <h1 className="text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+          <h1 className="text-4xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary break-words">
             <Typewriter text="Benkaddour Imad Eddine" speed={100} />
           </h1>
         </div>
@@ -17,3 +17,4 @@ export default function Header() {
     </header>
   );
 }
+
