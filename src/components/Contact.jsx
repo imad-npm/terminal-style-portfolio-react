@@ -14,7 +14,7 @@ export default function Contact() {
           <span className="break-all">imad.benkaddour@yahoo.com</span>
         </CopyToClipboard>
         <div className="flex items-center space-x-2 bg-secondary text-secondary-foreground  px-2 rounded-md">
-            <CopyToClipboard text="+213792019450">
+            <CopyToClipboard text="+213 792019450">
 
           <FaPhone />
           <span>+213 792019450</span>
