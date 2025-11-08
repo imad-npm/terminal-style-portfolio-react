@@ -17,7 +17,7 @@ export default function Contact() {
             <CopyToClipboard text="+213792019450">
 
           <FaPhone />
-          <span>+213792019450</span>
+          <span>+213 792019450</span>
           </CopyToClipboard>
         </div>
         <div className="flex items-center space-x-2 bg-secondary text-secondary-foreground py-2 px-4 rounded-md">
